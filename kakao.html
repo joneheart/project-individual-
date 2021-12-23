@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title> 카카오 프로필 </title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+
+        .mytitle{
+            width: 480px;
+            height: 800px;
+            margin: 10px;
+            position: relative;
+
+        }
+       .pink-box{
+           height: 500px;
+           background-color: pink;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           padding: 0 50px;
+       }
+       .white-box{
+           height: 300px;
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           padding: 30px;
+       }
+       .profile-message{
+           text-align: center;
+           color: white;
+       }
+       .image{
+           width: 300px;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           font-size: 10pt;
+       }
+       .icon{
+           width: 50px;
+           height: 50px;
+       }
+       .chat-icon{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+       .kakaostory-icon{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+       .profile-icon{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+       .photo1{
+           width:100px;
+           height:100px;
+           top: 450px;
+           left: 190px;
+           border-radius: 30px;
+           object-fit: cover;
+           position: absolute;
+       }
+       .text-size{
+           font-size: 13px;
+       }
+    </style>
+    <script>
+
+    </script>
+
+</head>
+
+<body>
+    <div class= "mytitle">
+        <div class = "pink-box">
+            <div class="profile-message">
+                <div>______</div>
+                안녕하세요 저는 라이언 입니다. 지금 코딩을 배우고 있고 너무너무 어렵네요 그래도 끝까지
+                해내보이겠습니다.
+            </div>
+        </div>
+        <img class="photo1" src="img\라이언.png" alt="라이언" />
+        <div class="white-box">
+            <h3>라이언</h3>
+            <div class="image">
+                <div class="chat-icon">
+                    <img class="icon" src="img\나와의 채팅.png" alt="나와의 채팅"/>
+                    <h5 class="text-size">내 채팅</h5>
+                </div>
+                <div class="profile-icon">
+                    <img class="icon" src="img\프로필관리.png" alt="프로필관리"/>
+                    <h5 class="text-size">프로필 관리</h5>
+                </div>
+                <div class="kakaostory-icon">
+                    <img class="icon" src="img\카스.png" alt="카스"/>
+                    <h5 class="text-size">카카오스토리</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
